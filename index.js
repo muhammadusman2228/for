@@ -1,7 +1,13 @@
-console.log("I am Usman");
-let decison=prompt("According to you i am noob or not");
-if(decison==y)
-{
-    console.log("I am noob");
+// Prompt with a message
+let userName = prompt("Please enter your name:"); 
+
+// Prompt with a message and a default value
+let favoriteColor = prompt("What is your favorite color?", "Blue"); 
+
+if (userName !== null) {
+  console.log("Hello, " + userName + "!");
 }
-console.log("heheheehheh I am pro");
+
+if (favoriteColor !== null) {
+  console.log("Your favorite color is: " + favoriteColor);
+}
